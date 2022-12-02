@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO_HYK</title>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <link href='//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'> 
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+    $(function() {
+
+  
+$('.menu_button').click(function () {
+	$('.menu_area').addClass('on');
+    });
+    $('.close-btn').click(function () {
+        $('.menu_area').removeClass('on');
+	});
+    
+    $('.item').on('click', function() {
+        $('.item').removeClass('on');
+        $(this).addClass('on')
+        var idx = $('.item').index(this);
+
+        $('.design_area').hide();
+        $('.design_area').eq(idx).show();
+    });
+
+});
+
+
+
+	
+    </script>
+
+</head>
+
+<body>
+    <header class="top">
+        <img src="/img/logo_cat.png">
+
+        <div class="title_txt marquee">
+            <div>
+              <span class="title_txt_flow">
+                WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+            </span>
+            <span class="title_txt_flow">
+              WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+          </span>
+          <span class="title_txt_flow">
+            WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+        </span>
+            </div>
+          </div>
+        <div class="menu_button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu_area">
+            <div class="menu_bx">
+                <button class="close-btn"><img src="/img/clear.png"></button>
+                <span class="bar"></span>
+            <ul class="menu">
+                <li><a href="/index.html">MAIN</a></li>
+                <li><a href="/design/index.html">DESIGN</a></li>
+                <li><a href="/publish/index.html">PUBLISH</a></li>
+                <li><a href="/ux/index.html">UX</a></li>
+            </ul>
+            <ul class="tnk">
+                <li>thanks</li>
+                <li>www.hoopdidydo.pe.kr</li>
+            
+            </ul>
+            <div class="title_txt marquee">
+                <div>
+                  <span class="title_txt_flow">
+                    WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+                </span>
+                  <span class="title_txt_flow">
+                    WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+                </span>
+                <span class="title_txt_flow">
+                  WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+              </span>
+                </div>
+              </div>
+        </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="comtent_wrap">
+            <h2 class="page_title">
+                DESIGN
+            </h2>
+            <div class="dsgn_area">
+                <div class="list_area">
+                    <div class="item">
+                        <img src="img/list_item_04.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/list_item_03.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/list_item_01.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/list_item_02.png">
+                    </div>
+
+                </div>
+                <div class="design_area on">
+
+                    <img src="img/sub_04_01.png">
+                </div>
+                <div class="design_area">
+
+                    <img src="img/sub_03_01.png">
+                </div>
+                <div class="design_area">
+                    <img src="img/sub_01_01.png">
+                    <img src="img/sub_01_02.png">
+                    <img src="img/sub_01_03.png">
+
+                </div>
+                <div class="design_area">
+
+                    <img src="img/sub_02_01.png">
+                    <img src="img/sub_02_02.png">
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+
+  
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO_HYK</title>
+
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <link href='//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'> 
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style_sub_02.css">
+
+
+    <script type="text/javascript">
+    $(function() {
+
+  
+$('.menu_button').click(function () {
+	$('.menu_area').addClass('on');
+});
+$('.close-btn').click(function () {
+    $('.menu_area').removeClass('on');
+	});
+	
+    function scrollHorizontally(e) {
+  e = window.event || e;
+  var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+  var scrollSpeed = 60; // Janky jank <<<<<<<<<<<<<<
+  document.documentElement.scrollLeft -= (delta * scrollSpeed);
+  document.body.scrollLeft -= (delta * scrollSpeed);
+  e.preventDefault();
+}
+
+if (window.addEventListener) {
+  // IE9, Chrome, Safari, Opera
+  window.addEventListener("mousewheel", scrollHorizontally, false);
+  // Firefox
+  window.addEventListener("DOMMouseScroll", scrollHorizontally, false);
+} else {
+  // IE 6/7/8
+  window.attachEvent("onmousewheel", scrollHorizontally);
+}
+
+
+});
+
+	
+    </script>
+
+</head>
+
+<body>
+    <header class="top">
+        <img src="/img/logo_cat.png">
+
+        <div class="title_txt marquee">
+            <div>
+              <span class="title_txt_flow">
+                WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+            </span>
+            <span class="title_txt_flow">
+              WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+          </span>
+          <span class="title_txt_flow">
+            WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+        </span>
+            </div>
+          </div>
+        <div class="menu_button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu_area">
+            <div class="menu_bx">
+                <button class="close-btn"><img src="/img/clear.png"></button>
+                <span class="bar"></span>
+            <ul class="menu">
+                <li><a href="/index.html">MAIN</a></li>
+                <li><a href="/design/index.html">DESIGN</a></li>
+                <li><a href="/publish/index.html">PUBLISH</a></li>
+                <li><a href="/ux/index.html">UX</a></li>
+            </ul>
+            <ul class="tnk">
+                <li>thanks</li>
+                <li>www.hoopdidydo.pe.kr</li>
+            
+            </ul>
+            <div class="title_txt marquee">
+                <div>
+                  <span class="title_txt_flow">
+                    WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+                </span>
+                  <span class="title_txt_flow">
+                    WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+                </span>
+                <span class="title_txt_flow">
+                  WEB PUBLISHER HAYEONGGYEONG PORTFOLIO
+              </span>
+                </div>
+              </div>
+        </div>
+        </div>
+        <div class="btn_back">
+            <a href="index.html">
+                <img src="/img/btn_back.png">
+            </a>
+        </div>
+    </header>
+  
+    <main class="content">
+        <div class="comtent_wrap">
+          <div class="title">
+              CLEAN CARE<br>
+              WORK SYSTEM<br>
+              UX DESIGN
+          </div>
+          <div class="img_area">
+              <img src="img/sub_02.png">
+          </div>
+          <div class="info">
+              <ul>
+                <li>
+                    <h3>
+                        PERIOD
+                    </h3>
+                    <p>
+                        7DAYS
+                    </p>
+                </li>
+                <li>
+                    <h3>
+                        TOOLS
+                    </h3>
+                    <p>
+                        figma
+                    </p>
+                </li>
+                <li>
+                    <h3>
+                        PARTICIPANT
+                    </h3>
+                    <p>
+                        100%
+                    </p>
+                </li>
+              </ul>
+          </div>
+          <div class="wireframe_area">
+              <h2>WIREFRAME</h2>
+              <ul>
+                <li>
+                    <img src="img/sub_02_01.png">
+                </li>
+                <li>
+                    <img src="img/sub_02_02.png">
+                </li>
+                <li>
+                    <img src="img/sub_02_03.png">
+                </li>
+                <li>
+                    <img src="img/sub_02_04.png">
+                </li>
+                <li>
+                    <img src="img/sub_02_05.png">
+                </li>
+                <li>
+                    <img src="img/sub_02_06.png">
+                </li>
+              </ul>
+          </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
+
+

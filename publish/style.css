@@ -1,0 +1,141 @@
+.content {
+    display: block;
+    width: 100%;
+    min-width:360px;
+}
+
+.comtent_wrap {
+    display: flex;
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.right_wrap {
+    width: 100%;
+    display: block;
+    background: #fff
+}
+
+.page_title {
+    font-size: 6em;
+    margin: 40px 0 60px;
+}
+
+.comtent_wrap > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.comtent_wrap > div > a{
+    display: block; width:31.7%; margin:0 0 40px;
+}
+.comtent_wrap > div > a > img{
+    display: block; width:100%; margin:0 auto;
+}
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 60px 0 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: '62570체';
+}
+
+.text.txt-center {
+    text-align: center;
+}
+
+.text a {
+    color: #000;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    background: #fff;
+    width: 32%;
+    margin: 0 auto;
+    padding: 50px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px
+}
+
+.text a>img {
+    display: block;
+    width: 100px;
+    height: 40px;
+    object-fit: contain;
+    -webkit-filter: grayscale(100%);
+    margin-bottom: 15px;
+}
+
+.text a>span {
+    font-family: 'Alfa Slab One', 'Noto Sans KR', cursive;
+}
+
+.has-animation {
+    position: relative;
+}
+
+.has-animation p,
+.has-animation img {
+    opacity: 0;
+}
+
+.img_bx {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img_bx>img {
+    display: block;
+    width: 100%;
+}
+
+.pp_item {
+    position: relative;
+}
+
+.pp_item>img {
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+}
+.pp_item:hover>img {
+    transform: rotate(-10deg);
+    transition: 0.5s;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+
+@media (max-width:1200px){
+
+}
+@media (max-width: 768px){
+    .comtent_wrap{
+        padding:0 20px;
+        box-sizing: border-box;
+
+    }
+    .page_title{
+        font-size:4em;
+     
+    }
+    .comtent_wrap > div > a{
+        width:48%;
+        margin:0 auto 40px;
+    }
+}

@@ -1,0 +1,108 @@
+body {
+    background: url(img/sub_bg_02.png) no-repeat top left / cover;
+    height: 100vh;
+    width: 7300px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 3px solid #fff;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.comtent_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 200px;
+    height: 100vh;
+    box-sizing: border-box;
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+
+}
+
+.comtent_wrap>.title {
+    font-size: 52px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.img_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+
+}
+
+.info>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 220px;
+}
+
+.info>ul>li:nth-child(2) {
+    margin: 46px 0;
+}
+
+.info>ul>li>h3 {
+    font-size: 36px;
+}
+
+.info>ul>li>p {
+    font-size: 24px;
+}
+
+.wireframe_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+.wireframe_item{
+    display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; height: 100%; margin-right:30px;
+}
+.wireframe_item>h2 {
+    font-size: 36px;
+    margin-bottom: 42px;
+}
+
+.wireframe_item>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 87px;
+}
+
+.wireframe_area>ul>li {
+    margin-right: 48px;
+}
